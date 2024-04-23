@@ -1,0 +1,89 @@
+body {
+    background-color: lightgray;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+h1 {
+    font-family: Courier, monospace;
+    font-size: 28px;
+}
+h2 {
+    font-size: 18px;
+}
+
+a { 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    color: #555; /* Initial grey color */
+}
+a:hover {
+    color: darkred; /* Color on hover */
+}
+
+.card-white {
+    background: white;
+    padding: 40px;
+    margin: 20px 0px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Increased border-radius for rounder corners */
+}
+
+.container {
+    width: 700px;
+    margin: 60px auto;
+    background-color: white;
+}
+
+.space {
+    margin-top: 40px; /* Added space between main container and other divs */
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 300px;
+    }
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px; /* Increased picture size */
+}
+
+.btn-blue {
+    background: mediumblue;
+    color: white;
+    padding: 5px 10px;
+}
+
+.btn-blue:hover {
+    background: mediumblue;
+    color: black;
+}
+
+.list-inline { 
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {     
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 24px;
+    color: #555; /* Initial grey color */
+    transition: color 0.3s ease;
+}
+
+.list-inline i:hover {
+    color: black; /* Color on hover */
+}
